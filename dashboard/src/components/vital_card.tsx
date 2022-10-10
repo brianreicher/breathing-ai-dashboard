@@ -25,7 +25,7 @@ export default function Vital_Card(props: any){
                     {props.rate} {props.unit}
                 </Card.Text>
                 <Button>
-                Fetch Latest {props.name} Data
+                Fetch Latest {props.description} Data
                 </Button>
             </Card.Body>
             </Card>

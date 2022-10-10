@@ -12,6 +12,9 @@ import BAI from './bai.png';
 
 
 function App() {
+  const data_fetch = () =>{
+    // ADD SUNNY'S FETCH REQUEST 
+  }
   return (
     <div className="App">
       <header className="App-header">
