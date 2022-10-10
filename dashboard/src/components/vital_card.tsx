@@ -17,13 +17,12 @@ export default function Vital_Card(props: any){
                 <Card.Title className="mb-1 text-muted">
                 {props.name}
                 </Card.Title>
-                {/* <Card.Subtitle
-                className="mb-2 text-muted"
-                >
-                Card subtitle
-                </Card.Subtitle> */}
+                <Card.Subtitle
+                className="mb-2 text-muted">
+                Period: {props.period} hours
+                </Card.Subtitle>
                 <Card.Text className="mb-3 text-muted">
-                    {props.description}
+                    {props.rate} {props.unit}
                 </Card.Text>
                 <Button>
                 Fetch Latest {props.name} Data

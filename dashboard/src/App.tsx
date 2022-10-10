@@ -18,9 +18,9 @@ function App() {
         <img  src={BAI} alt="fireSpot"/>
         <h1> Vital & Exercise Dash</h1>
         <CardGroup>
-        <Vital_Card name='Heart Rate' description='Heart Rate Period Avg' rate={77} period={4}/>
-        <Vital_Card name='Breathing Rate' description='Breathing Rate Period Avg' rate={55} period={4}/>
-        <Vital_Card name='Intraday Exercise' description='Intraday Exercise Period Avg' rate={77} period={4}/>
+        <Vital_Card name='Active Heart Rate Period Avg' description='Heart Rate Period Avg' rate={77} period={4} unit='bpm'/>
+        <Vital_Card name='Breathing Rate Period Avg' description='Breathing Rate Period Avg' rate={55} period={4} unit='brpm'/>
+        <Vital_Card name='Intraday Exercise Period Avg' description='Intraday Exercise Period Avg' rate={77} period={4} unit='kCal'/>
         </CardGroup>
         <br>
         </br>
