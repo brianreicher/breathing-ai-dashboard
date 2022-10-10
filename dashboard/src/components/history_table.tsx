@@ -47,30 +47,36 @@ export default function Exercise_History(props: any){
                 </tr>
                 <tr>
                 <th scope="row">
-                    2
+                10-09-2022
                 </th>
                 <td>
-                    Jacob
+                    3000
                 </td>
                 <td>
-                    Thornton
+                    15000
                 </td>
                 <td>
-                    @fat
+                    12
+                </td>
+                <td>
+                    11
                 </td>
                 </tr>
                 <tr>
                 <th scope="row">
-                    3
+                    10-10-2022
                 </th>
                 <td>
-                    Larry
+                    2400
                 </td>
                 <td>
-                    the Bird
+                    10000
                 </td>
                 <td>
-                    @twitter
+                    7
+                </td>
+                <td>
+                    8
                 </td>
                 </tr>
             </tbody>
