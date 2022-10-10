@@ -12,15 +12,18 @@ import BAI from './bai.png';
 
 
 function App() {
+  const data_fetch = () =>{
+    // ADD SUNNY'S FETCH REQUEST 
+  }
   return (
     <div className="App">
       <header className="App-header">
         <img  src={BAI} alt="fireSpot"/>
         <h1> Vital & Exercise Dash</h1>
         <CardGroup>
-        <Vital_Card name='Heart Rate' description='Heart Rate Period Avg' rate={77} period={4}/>
-        <Vital_Card name='Breathing Rate' description='Breathing Rate Period Avg' rate={55} period={4}/>
-        <Vital_Card name='Intraday Exercise' description='Intraday Exercise Period Avg' rate={77} period={4}/>
+        <Vital_Card name='Heart Rate Period Avg (bpm)' description='HR' rate={77} period={4}/>
+        <Vital_Card name='Breathing Rate Period Avg (brpm)' description='Breathing' rate={55} period={4}/>
+        <Vital_Card name='Intraday Exercise Period Avg (kCal)' description='Exercise' rate={2000} period={4}/>
         </CardGroup>
         <br>
         </br>

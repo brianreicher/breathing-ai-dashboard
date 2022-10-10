@@ -23,10 +23,10 @@ export default function Vital_Card(props: any){
                 Card subtitle
                 </Card.Subtitle> */}
                 <Card.Text className="mb-3 text-muted">
-                    {props.description}
+                    {props.rate}
                 </Card.Text>
                 <Button>
-                Fetch Latest {props.name} Data
+                Fetch Latest {props.description} Data
                 </Button>
             </Card.Body>
             </Card>
